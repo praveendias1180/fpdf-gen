@@ -13,5 +13,8 @@
             "name": "Praveen Dias",
             "email": "praveendias1180@gmail.com"
         }
-    ]
+    ],
+    "require": {
+        "setasign/fpdf": "^1.8"
+    }
 }
