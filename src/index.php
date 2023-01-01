@@ -8,7 +8,7 @@ $content = '
 <div class="container">
     Outside content. <p><b>This</b> is <i>content</i> inside p tag. This is <em>inside em tag</em>.</p>
 </div>';
-$fp = $content;
+$fp = strip_tags($content,'<p><i><em>');
 
 $dom = new DOMDocument();
 $dom->loadHTML($fp);
