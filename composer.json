@@ -1,0 +1,17 @@
+{
+    "name": "praveendias1180/fpdf-gen",
+    "description": "Testing PDF generation with FPDF",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Praveendias1180\\FpdfGen\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Praveen Dias",
+            "email": "praveendias1180@gmail.com"
+        }
+    ]
+}
